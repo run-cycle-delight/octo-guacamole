@@ -9,7 +9,7 @@ env:
   TF_CLOUD_ORGANIZATION: "the-birds-nest"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "octo-guacamole"
-  CONFIG_DIRECTORY: "./iac/"
+  CONFIG_DIRECTORY: "./"
 
 jobs:
   terraform:
